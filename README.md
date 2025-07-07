@@ -20,7 +20,7 @@ To develop a robust machine learning model that can predict credit default risk 
 
 
 🧠 Methodology Breakdown
-📘 Phase 2: Baseline Model Building
+📘 Phase 1: Baseline Model Building
 •	Explored key tables: application_train, bureau, credit_card_balance, previous_application, etc.
 •	Performed data cleaning, missing value handling, and basic preprocessing.
 •	Built baseline models using Logistic Regression, with minimal feature engineering.
@@ -28,7 +28,7 @@ To develop a robust machine learning model that can predict credit default risk 
 Outcome: Built a working baseline pipeline and achieved initial accuracy scores. Identified areas for improvement like feature extraction and aggregation.
 
 
-🛠️ Phase 3: Feature Engineering & Data Integration
+🛠️ Phase 2: Feature Engineering & Data Integration
 •	Joined datasets using SK_ID_CURR and SK_ID_PREV keys.
 •	Summarized transactional tables using group-by aggregates (e.g., max, mean, min).
 •	Created derived features like:
@@ -39,7 +39,7 @@ Outcome: Built a working baseline pipeline and achieved initial accuracy scores.
 Outcome: Enhanced feature richness and significantly boosted model AUC and F1 scores.
 
 
-🧪 Phase 4: Final Modeling and Submission
+🧪 Phase 3: Final Modeling and Submission
 •	Refined final models with:
 –	Cross-validation using StratifiedKFold
 –	Grid Search for hyperparameter tuning
